@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+
+</head>
+<style>
+    .caixa {
+        background-color: rgb(194, 194, 189);
+        font-size:12px;
+    }
+    .texto {
+font-style: italic;
+font-size: 20px;
+    }
+</style>
+
+<body>
+    <h2>Cadastro</h2>
+    <form action="">
+        <label class="texto" for="nome">Nome</label>
+        <input class="caixa" type="text"  value="Nome e sobrenome">
+        <label class="texto" for="usuario">Usuário</label>
+        <input class="caixa" type="text" value="Pablinho">
+        <label class="texto" for="Email">Email</label>
+        <input class="caixa" type="email" value="exemplo@test.com">
+        <label class="texto" for="cpf"> Cpf</label>
+        <input class="caixa" type="number" name="cpf" value="12345678961">
+        <label class="texto" for="Data de nascimento">Data de nascimento</label>
+        <input class="caixa" type="date" name="Data de nascimento">
+        <label class="texto" for="Endereco">Endereço</label>
+        <input class="caixa" type="text" name="Endereco" value="Rua dos Bobos número 0">
+        <label class="texto" for="password">Senha</label>
+        <input class="caixa" type="password" value="1234567899">
+        <label class="texto" for="sexo">Sexo</label>
+        <select class="caixa" w>
+            <option value="">Selecionar sexo</option>
+            <option value="">masculino</option>
+            <option value="">feminino</option>
+        </select><br>
+        <input id="p1"" type="button" value="cadastrar">
+    </form>
+</body>
+
+</html>
